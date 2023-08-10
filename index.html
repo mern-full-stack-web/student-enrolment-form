@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <head>
-    <title>Enrolment form</title>
+    <title>Enrollment form </title>
     <meta charset="utf-8"/>
-    <meta name="author" content=""/>
-    <meta name="description" content=""/>
-    <meta name="keywords" content=""/>
+    <meta name="description" content="student Enrollment"/>
+    <meta name="keywords" content="html.css"/>
+    <link rel="stylesheet" href="assets/css/style.css"/>
 </head>
 <body>
+    <div class="heading">
+    <P>STUDENT ENROLLMENT FORM </P>
+</div>
+    <div class="Enrollment">
     <form>
         <label for="first-name">First name: </label>
         <input type="text"
@@ -25,7 +29,7 @@
         <p>
             <label for="register-number">Register number:</label>
             <input type="text"
-                   placeholder="Enter your registeration number"
+                   placeholder="Enter your registration number"
                    id="register-number"
                    name="register-number"
                    required/>
@@ -63,7 +67,7 @@
                     id="E-mail"
                     name="E-mail"
                     required
-                    pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$">"/>
+                    pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$]"/>
         </p>
         <p>
             <label for="dept">Department: </label>
@@ -142,6 +146,15 @@
         <p>
             <input type="file" name="upload" accept="pdf,application/vnd.ms-excel" />
         </p>
+        <p>
+            <button class="button"
+            type="Submit">Submit</button>
+            <button class="button"
+            type="Reset">Reset</button>
+        </p>
+
     </form>
+</div>
+</div>
 </body>
 </html>
