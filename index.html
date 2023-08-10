@@ -7,6 +7,141 @@
     <meta name="keywords" content=""/>
 </head>
 <body>
-    <p>Hello World</p>
+    <form>
+        <label for="first-name">First name: </label>
+        <input type="text"
+               placeholder="Enter your first name"
+               id="first-name"
+               name="first-name"
+               required/>
+        <p>
+        <label for="last-name">Last name: </label>
+        <input type="text"
+                placeholder="Enter your last name"
+                id="last-name"
+                name="last-name"
+                required/>
+        </p>
+        <p>
+            <label for="register-number">Register number:</label>
+            <input type="text"
+                   placeholder="Enter your registeration number"
+                   id="register-number"
+                   name="register-number"
+                   required/>
+        </p>
+        <p>
+            <label for="mobile-number">Mobile number:</label>
+            <input type="text"
+                   placeholder="Enter your mobile number"
+                   id="mobile-number"
+                   name="mobile-number"
+                   required
+                   pattern="[6-9]{1}[0-9]{8}"/>
+        </p>
+        <p>
+            <label for="gender">Gender: </label>
+        </p>
+        <p>
+            <input type="radio"
+                   id="male"
+                   name="gender"
+                   checked/>
+            <label for="gender">Male</label>    
+        </p>
+        <p>
+            <input type="radio"
+                   id="female" `
+                   name="gender"
+                   checked/>
+            <label for="gender">Female</label>    
+        </p>
+        <p>
+            <label for="email-id">E-mail: </label>
+            <input type="text"
+                    placeholder="Enter your E-mail"
+                    id="E-mail"
+                    name="E-mail"
+                    required
+                    pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$">"/>
+        </p>
+        <p>
+            <label for="dept">Department: </label>
+            <input type="text"
+                    placeholder="Enter your Department"
+                    id="dept"
+                    name="dept"
+                    required/>
+        </p>
+        <p>
+            <label for="year">Year: </label>
+            <input type="text"
+                    placeholder="Enter your year"
+                    id="year"
+                    name="year"
+                    required/>
+        </p>
+        <p>
+            <label for="lang-known">Languages Known: </label>
+        </p>
+        <p>
+            <input type="checkbox"
+                   id="C"
+                   name="lang-known"
+                   checked/>
+            <label for="lang-known">C</label>    
+        </p>
+        <p>
+            <input type="checkbox"
+                   id="C++"
+                   name="lang-known"
+                   checked/>
+            <label for="lang-known">C++</label>    
+        </p>
+        <p>
+            <input type="checkbox"
+                   id="java"
+                   name="lang-known"
+                   checked/>
+            <label for="lang-known">Java</label>    
+        </p>
+        <p>
+            <input type="checkbox"
+                   id="python"
+                   name="lang-known"
+                   checked/>
+            <label for="lang-known">Python</label>    
+        </p>
+        <p>
+            <label for="avail-slots">Available slots: </label>
+        </p>
+        <p>
+            <input type="radio"
+                   id="10am"
+                   name="avail-slots"
+                   checked/>
+            <label for="avail-slots">10am</label>    
+        </p>
+        <p>
+            <input type="radio"
+                   id="2pm"
+                   name="avail-slots"
+                   checked/>
+            <label for="avail-slots">2pm</label>    
+        </p>
+        <p>
+            <input type="radio"
+                   id="5pm"
+                   name="avail-slots"
+                   checked/>
+            <label for="avail-slots">5pm</label>    
+        </p>
+        <p>
+            <label for="resume">Resume: </label>
+        </p>
+        <p>
+            <input type="file" name="upload" accept="pdf,application/vnd.ms-excel" />
+        </p>
+    </form>
 </body>
 </html>
